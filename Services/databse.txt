@@ -1,0 +1,14 @@
+//
+//post 
+//api/register
+/api/login
+//api/addcustomer
+//api/add documents 
+//api/add declarations 
+
+//get  // update, delete 
+//api/getregister
+// //api/ get customer and documents declartions 
+//api/ 
+update 
+//
