@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const userService = require("./Register.service");
 
 const login = async (userData) => {
