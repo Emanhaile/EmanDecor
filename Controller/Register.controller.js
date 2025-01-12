@@ -201,7 +201,7 @@
 //   deleteUser,
 //   getRoles,
 // };
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const userService = require("../Services/Register.service");
 
 // Create a new user
