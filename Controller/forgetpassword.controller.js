@@ -1,6 +1,6 @@
 const userService= require('../Services/forgetpassword.service')
 const nodemailer= require('nodemailer')
-const bcrypt= require('bcrypt')
+const bcrypt= require('bcryptjs')
 const crypto= require('crypto')
 const db=require('../DBconfig/Dbconfig')
 exports.forgotPassword = async (req, res) => {
