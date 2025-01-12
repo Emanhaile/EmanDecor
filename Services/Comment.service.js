@@ -1,5 +1,5 @@
 // service.js
-const db = require("../DBconfig/DBconfig");
+const db = require("../DBconfig/Dbconfig");
 
 // Create a new customer
 const createComment= async (customerData) => {
