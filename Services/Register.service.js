@@ -1,6 +1,5 @@
-
 const db = require("../DBconfig/Dbconfig");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs"); // Use bcryptjs instead of bcrypt
 
 // Check if a user already exists by email
 async function checkIfUserExists(email) {
@@ -12,7 +11,6 @@ async function checkIfUserExists(email) {
   }
   return false;
 }
-
 
 // Register a new user
 const registerUser = async (userData) => {
